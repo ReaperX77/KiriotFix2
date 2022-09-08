@@ -2,7 +2,6 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 game.Players.LocalPlayer.CharacterAdded:Wait()
-print("bigdick")
 
 function Dungeon(x,y)
     game:GetService("ReplicatedStorage").Shared.Teleport.StartRaid:FireServer(x,y)
