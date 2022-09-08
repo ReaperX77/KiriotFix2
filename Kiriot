@@ -12,7 +12,6 @@ local towerEnd = game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("
 local dungeonEnd = game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("MissionRewards").MissionRewards.RaidClear
 
 if a == 21 then -- Prison Tower
-    print("lol2")
     towerEnd:GetPropertyChangedSignal("Text"):Connect(function()
         wait(20)
         Dungeon(25,1)
